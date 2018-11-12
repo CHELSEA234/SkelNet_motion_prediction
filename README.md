@@ -1,6 +1,6 @@
 # SkelNet_motion_prediction
 
-This is the implementation of the Human motion prediction via learning local structure representations and temporal dependencies
+This is the implementation of the "Human motion prediction via learning local structure representations and temporal dependencies", which is accepted by AAAI19.
 
 Dependencies:
 Tensorflow 1.3.0
