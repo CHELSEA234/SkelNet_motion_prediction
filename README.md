@@ -3,7 +3,7 @@ This is the implementation of the paper
 
 Xiao Guo, Jongmoo Choi. *Human motion prediction via learning local structure representations and temporal dependencies*. In AAAI2019. 
 
-PDF is [here](https://drive.google.com/file/d/1ICxROxmPfNe0gNRd-UyduiiEXW8WNAg0/view), (The arxiv version is coming soon)
+PDF is [here](https://drive.google.com/file/d/1ICxROxmPfNe0gNRd-UyduiiEXW8WNAg0/view), the arxiv version is coming soon.
 
 ### Dependencies
 * Tensorflow-gpu 1.3.0 
