@@ -1,7 +1,7 @@
 # SkelNet_motion_prediction
-This is the implementation of the paper \
+This is the implementation of the paper 
 
-Xiao Guo, Jongmoo Choi. *Human motion prediction via learning local structure representations and temporal dependencies*. In AAAI2019.\
+Xiao Guo, Jongmoo Choi. *Human motion prediction via learning local structure representations and temporal dependencies*. In AAAI2019.
 
 (The arxiv version is coming soon)
 
