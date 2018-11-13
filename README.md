@@ -10,7 +10,9 @@ Xiao Guo, Jongmoo Choi. *Human motion prediction via learning local structure re
 * Python 3.6 or 3.5 
 
 ### Files and commands:
-User can decide long-term or short-term prediction based on input argument. Specifically, three components in proposed Skel-TNet should be optimized independently. Required commands are shown below: 
+User can decide long-term or short-term prediction based on input argument. Specifically, three components in proposed Skel-TNet should be optimized independently. 
+
+Supposed target action is walking, required commands are shown below: 
 * **SkelNet:** python3 SkelNet/src/long_pre_extraction.py --action walking
 * **C-RNN:** python3 C-RNN/src/long_pre_extraction.py --action walking
 * **Merging_network:** python3 Merging_network/src/long_pre_extraction.py --action walking --iterations 1500 
