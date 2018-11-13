@@ -14,4 +14,5 @@ User can decide long-term or short-term prediction based on input argument. Spec
 * **SkelNet:** python3 SkelNet/src/long_pre_extraction.py --action walking
 * **C-RNN:** python3 C-RNN/src/long_pre_extraction.py --action walking
 * **Merging_network:** python3 Merging_network/src/long_pre_extraction.py --action walking --iterations 1500 
-* **Data** contains preprocessing the Human3.6M dataset, **spatial_model_walking** and **temporal_model_walking** represent pretained models sending to the Merging Network.
+* **Data** contains preprocessing the Human3.6M dataset
+* **spatial_model_walking** and **temporal_model_walking** represent pretained models sending to the Merging Network.
