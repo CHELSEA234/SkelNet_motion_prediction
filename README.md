@@ -1,9 +1,7 @@
 # SkelNet_motion_prediction
-This is the implementation of the paper 
+This work is from AAAI19. We proposed novel architectures for the Human motion prediction from motion capture data. First, Skeleton Network (SkelNet) learns different local moving pattern from body components, and employ such locality for predicting the future human motion. Then, we built up Skeleton Temporal Network (Skel-TNet) that consists SkelNet and RNN, which have  advantages in learning spatial and temporal dependencies for predicting human motion, respectively. Our methods achieve state-of-the-art results on the Human3.6M dataset and the CMU motion capture dataset. You can also check our paper for a details.
 
-Xiao Guo, Jongmoo Choi. *Human motion prediction via learning local structure representations and temporal dependencies*. In AAAI2019. 
-
-arXiv is [here](https://arxiv.org/abs/1902.07367).
+Xiao Guo, Jongmoo Choi. *Human Motion Prediction via Learning Local Structure Representations and Temporal Dependencies*. In AAAI2019. [Paper](https://arxiv.org/abs/1902.07367).
 
 ### Dependencies
 * Tensorflow-gpu 1.3.0 
@@ -19,4 +17,22 @@ Supposed target action is walking, required commands are shown below:
 * **Data** contains preprocessing the Human3.6M dataset
 * **spatial_model_walking** and **temporal_model_walking** represent pretained models sending to the Merging Network.
 
+### Citation:
 
+if you find our work useful in your research, please consider citing:
+```
+@article{DBLP:journals/corr/abs-1902-07367,
+  author    = {Xiao Guo and Jongmoo Choi},
+  title     = {Human Motion Prediction via Learning Local Structure Representations
+               and Temporal Dependencies},
+  journal   = {CoRR},
+  volume    = {abs/1902.07367},
+  year      = {2019},
+  url       = {http://arxiv.org/abs/1902.07367},
+  archivePrefix = {arXiv},
+  eprint    = {1902.07367},
+  timestamp = {Tue, 21 May 2019 18:03:37 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1902-07367},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+```
