@@ -28,19 +28,10 @@ Supposed target action is walking, required commands are shown below:
 ### Citation:
 
 if you find our work useful in your research, please consider citing (since the official proceeding of AAAI19 has not been published yet):
-```
-@article{DBLP:journals/corr/abs-1902-07367,
-  author    = {Xiao Guo and Jongmoo Choi},
-  title     = {Human Motion Prediction via Learning Local Structure Representations
-               and Temporal Dependencies},
-  journal   = {CoRR},
-  volume    = {abs/1902.07367},
-  year      = {2019},
-  url       = {http://arxiv.org/abs/1902.07367},
-  archivePrefix = {arXiv},
-  eprint    = {1902.07367},
-  timestamp = {Tue, 21 May 2019 18:03:37 +0200},
-  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1902-07367},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+@inproceedings{guo2019human,
+    title={Human motion prediction via learning local structure representations and temporal dependencies},
+    author={Guo, Xiao and Choi, Jongmoo},
+    booktitle={AAAI},
+    year={2019}
 }
 ```
