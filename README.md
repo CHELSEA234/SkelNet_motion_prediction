@@ -25,9 +25,9 @@ Supposed target action is walking, required commands are shown below:
 * **Data** contains preprocessing the Human3.6M dataset
 * **spatial_model_walking** and **temporal_model_walking** represent pretained models sending to the Merging Network.
 
-### Citation:
-
-if you find our work useful in your research, please consider citing (since the official proceeding of AAAI19 has not been published yet):
+### Acknowledgement:
+if you find our work useful in your research, please consider to cite our work:
+```
 @inproceedings{guo2019human,
     title={Human motion prediction via learning local structure representations and temporal dependencies},
     author={Guo, Xiao and Choi, Jongmoo},
